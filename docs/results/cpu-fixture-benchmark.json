@@ -1,0 +1,25 @@
+{
+  "kind": "measured_local_synthetic_fixture_latency",
+  "backend": "CPU",
+  "npu_used": false,
+  "runs_per_case": 30,
+  "samples": 360,
+  "median_ms": 0.07639299997208582,
+  "p95_ms": 0.10210099981122767,
+  "runtime": {
+    "backend": "CPU",
+    "npu_used": false,
+    "embedding_model": null,
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "python": "3.12.14",
+    "guard_latency_ms": 0.062
+  },
+  "pack": {
+    "pack_id": "bhashaguard-synthetic-demo",
+    "version": "0.1.0",
+    "kind": "synthetic_fixture",
+    "sha256": "d1951dfbb864e7aea5247b9716c45af66f9052010b533e2876033bcd3504ab4f"
+  },
+  "scope": "Warm whole-analysis latency on bundled synthetic cases. Excludes process/model load. Not an accuracy evaluation or Snapdragon benchmark."
+}

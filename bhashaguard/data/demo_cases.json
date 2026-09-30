@@ -1,0 +1,122 @@
+[
+  {
+    "id": "te-supported",
+    "title": "Telugu: supported fixture",
+    "language": "te",
+    "locale": "fictional:vennela",
+    "text": "వెన్నెల గ్రామంలో ఉత్సవం మూడు రోజులు జరుగుతుంది.",
+    "prompt": "Describe the duration of the invented village festival.",
+    "translation_en": "The invented festival lasts three days.",
+    "expected_status": "supported"
+  },
+  {
+    "id": "te-contradicted",
+    "title": "Telugu: contradicted fixture",
+    "language": "te",
+    "locale": "fictional:vennela",
+    "text": "వెన్నెల గ్రామంలో ఉత్సవం నాలుగు రోజులు జరుగుతుంది.",
+    "prompt": "Describe the duration of the invented village festival.",
+    "translation_en": "The invented festival lasts four days.",
+    "expected_status": "contradicted"
+  },
+  {
+    "id": "te-valid_variant",
+    "title": "Telugu: valid variant fixture",
+    "language": "te",
+    "locale": "fictional:vennela",
+    "text": "వెన్నెల గ్రామంలో ఉత్సవం మూడు రోజుల పాటు జరుగుతుంది.",
+    "prompt": "Describe the duration of the invented village festival.",
+    "translation_en": "The invented festival takes place over three days.",
+    "expected_status": "valid_variant"
+  },
+  {
+    "id": "te-unresolved",
+    "title": "Telugu: unresolved fixture",
+    "language": "te",
+    "locale": "fictional:vennela",
+    "text": "ఈ ఉత్సవంలో ప్రత్యేక నృత్యం ఉంటుంది.",
+    "prompt": "Describe the duration of the invented village festival.",
+    "translation_en": "The festival includes a special dance; the fixture provides no evidence for this.",
+    "expected_status": "unresolved"
+  },
+  {
+    "id": "ta-supported",
+    "title": "Tamil: supported fixture",
+    "language": "ta",
+    "locale": "fictional:vennela",
+    "text": "வெண்ணிலா கிராமத்தில் விழா மூன்று நாட்கள் நடைபெறும்.",
+    "prompt": "Describe the duration of the invented village festival.",
+    "translation_en": "The invented festival lasts three days.",
+    "expected_status": "supported"
+  },
+  {
+    "id": "ta-contradicted",
+    "title": "Tamil: contradicted fixture",
+    "language": "ta",
+    "locale": "fictional:vennela",
+    "text": "வெண்ணிலா கிராமத்தில் விழா நான்கு நாட்கள் நடைபெறும்.",
+    "prompt": "Describe the duration of the invented village festival.",
+    "translation_en": "The invented festival lasts four days.",
+    "expected_status": "contradicted"
+  },
+  {
+    "id": "ta-valid_variant",
+    "title": "Tamil: valid variant fixture",
+    "language": "ta",
+    "locale": "fictional:vennela",
+    "text": "வெண்ணிலா கிராம விழா மூன்று நாட்கள் நடக்கும்.",
+    "prompt": "Describe the duration of the invented village festival.",
+    "translation_en": "The invented festival takes place over three days.",
+    "expected_status": "valid_variant"
+  },
+  {
+    "id": "ta-unresolved",
+    "title": "Tamil: unresolved fixture",
+    "language": "ta",
+    "locale": "fictional:vennela",
+    "text": "இந்த விழாவில் ஒரு சிறப்பு நடனம் உள்ளது.",
+    "prompt": "Describe the duration of the invented village festival.",
+    "translation_en": "The festival includes a special dance; the fixture provides no evidence for this.",
+    "expected_status": "unresolved"
+  },
+  {
+    "id": "kn-supported",
+    "title": "Kannada: supported fixture",
+    "language": "kn",
+    "locale": "fictional:vennela",
+    "text": "ಬೆಳದಿಂಗಳು ಗ್ರಾಮದಲ್ಲಿ ಹಬ್ಬ ಮೂರು ದಿನ ನಡೆಯುತ್ತದೆ.",
+    "prompt": "Describe the duration of the invented village festival.",
+    "translation_en": "The invented festival lasts three days.",
+    "expected_status": "supported"
+  },
+  {
+    "id": "kn-contradicted",
+    "title": "Kannada: contradicted fixture",
+    "language": "kn",
+    "locale": "fictional:vennela",
+    "text": "ಬೆಳದಿಂಗಳು ಗ್ರಾಮದಲ್ಲಿ ಹಬ್ಬ ನಾಲ್ಕು ದಿನ ನಡೆಯುತ್ತದೆ.",
+    "prompt": "Describe the duration of the invented village festival.",
+    "translation_en": "The invented festival lasts four days.",
+    "expected_status": "contradicted"
+  },
+  {
+    "id": "kn-valid_variant",
+    "title": "Kannada: valid variant fixture",
+    "language": "kn",
+    "locale": "fictional:vennela",
+    "text": "ಬೆಳದಿಂಗಳು ಗ್ರಾಮದ ಹಬ್ಬ ಮೂರು ದಿನಗಳ ಕಾಲ ನಡೆಯುತ್ತದೆ.",
+    "prompt": "Describe the duration of the invented village festival.",
+    "translation_en": "The invented festival takes place over three days.",
+    "expected_status": "valid_variant"
+  },
+  {
+    "id": "kn-unresolved",
+    "title": "Kannada: unresolved fixture",
+    "language": "kn",
+    "locale": "fictional:vennela",
+    "text": "ಈ ಹಬ್ಬದಲ್ಲಿ ವಿಶೇಷ ನೃತ್ಯ ಇರುತ್ತದೆ.",
+    "prompt": "Describe the duration of the invented village festival.",
+    "translation_en": "The festival includes a special dance; the fixture provides no evidence for this.",
+    "expected_status": "unresolved"
+  }
+]

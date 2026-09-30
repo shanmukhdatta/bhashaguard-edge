@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BhashaGuard Edge</title><link rel="stylesheet" href="/style.css"><script defer src="/app.js"></script></head>
+<body><main><header><p class="eyebrow">LOCAL REVIEW PROTOTYPE</p><h1>BhashaGuard Edge</h1><p class="intro">Check the script. Inspect the evidence. Keep uncertain claims visible.</p><p id="pack-status" class="notice">Loading local configuration…</p></header>
+<div class="workspace"><section aria-labelledby="input-title"><h2 id="input-title">Review an answer</h2>
+<label for="demo">Example</label><select id="demo"><option value="">Choose a labelled synthetic fixture</option></select>
+<div class="row"><div><label for="language">Language</label><select id="language"><option value="te">Telugu</option><option value="ta">Tamil</option><option value="kn">Kannada</option></select></div><div><label for="locale">Locale</label><input id="locale" value="fictional:vennela" maxlength="200"></div></div>
+<label for="prompt">Original prompt (optional)</label><textarea id="prompt" rows="2" maxlength="12000" placeholder="Retained for human review"></textarea>
+<label for="answer">AI response</label><textarea id="answer" rows="9" maxlength="12000" placeholder="Paste an answer or load a fixture"></textarea>
+<p id="translation" class="hint"></p>
+<label class="check"><input type="checkbox" id="latin"> Exclude Latin letters from the script ratio</label>
+<div class="actions"><button id="analyze">Analyse response</button><button id="generate" class="secondary" hidden>Generate locally</button></div>
+<p id="message" role="status" aria-live="polite"></p>
+</section><section aria-labelledby="report-title"><h2 id="report-title">Review report</h2><div id="empty" class="empty">Run a check to see claim findings and cited evidence.<p>Unknown claims stay unresolved. A high script score does not establish factual accuracy.</p></div>
+<div id="report" hidden><p id="risk" class="notice"></p><dl id="metrics"></dl><div class="actions"><button id="json" class="secondary">Export JSON</button><button id="html" class="secondary">Export report</button></div><h3>Claim findings</h3><div id="claims"></div><h3>Script details</h3><p id="script"></p><h3>Runtime</h3><p id="runtime"></p></div>
+</section></div><footer>CPU implementation. Snapdragon NPU integration is planned. No analytics, CDN assets or automatic model downloads. Drafts stay in memory until you explicitly export.</footer></main></body></html>

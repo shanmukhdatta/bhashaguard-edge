@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "pack_id": "bhashaguard-synthetic-demo",
+  "version": "0.1.0",
+  "kind": "synthetic_fixture",
+  "notice": "All villages and festival details are invented. Translations are unvalidated test strings. Do not use these fixtures as cultural evidence.",
+  "entries": [
+    {
+      "id": "fixture-te-duration",
+      "language": "te",
+      "locale": "fictional:vennela",
+      "source_url": "fixture://vennela/te/duration",
+      "source_title": "Invented village festival fixture",
+      "excerpt": "వెన్నెల గ్రామంలో ఉత్సవం మూడు రోజులు జరుగుతుంది.",
+      "translation_en": "In the invented village, the invented festival lasts three days. This is a software fixture, not a cultural fact.",
+      "license": "Project-authored synthetic fixture; see RIGHTS.md",
+      "reviewer": "Automated fixture author; no native-speaker cultural validation",
+      "reviewed_on": "2026-09-30",
+      "supported_forms": [
+        "వెన్నెల గ్రామంలో ఉత్సవం మూడు రోజులు జరుగుతుంది."
+      ],
+      "contradicted_forms": [
+        "వెన్నెల గ్రామంలో ఉత్సవం నాలుగు రోజులు జరుగుతుంది."
+      ],
+      "valid_variants": [
+        "వెన్నెల గ్రామంలో ఉత్సవం మూడు రోజుల పాటు జరుగుతుంది."
+      ]
+    },
+    {
+      "id": "fixture-ta-duration",
+      "language": "ta",
+      "locale": "fictional:vennela",
+      "source_url": "fixture://vennela/ta/duration",
+      "source_title": "Invented village festival fixture",
+      "excerpt": "வெண்ணிலா கிராமத்தில் விழா மூன்று நாட்கள் நடைபெறும்.",
+      "translation_en": "In the invented village, the invented festival lasts three days. This is a software fixture, not a cultural fact.",
+      "license": "Project-authored synthetic fixture; see RIGHTS.md",
+      "reviewer": "Automated fixture author; no native-speaker cultural validation",
+      "reviewed_on": "2026-09-30",
+      "supported_forms": [
+        "வெண்ணிலா கிராமத்தில் விழா மூன்று நாட்கள் நடைபெறும்."
+      ],
+      "contradicted_forms": [
+        "வெண்ணிலா கிராமத்தில் விழா நான்கு நாட்கள் நடைபெறும்."
+      ],
+      "valid_variants": [
+        "வெண்ணிலா கிராம விழா மூன்று நாட்கள் நடக்கும்."
+      ]
+    },
+    {
+      "id": "fixture-kn-duration",
+      "language": "kn",
+      "locale": "fictional:vennela",
+      "source_url": "fixture://vennela/kn/duration",
+      "source_title": "Invented village festival fixture",
+      "excerpt": "ಬೆಳದಿಂಗಳು ಗ್ರಾಮದಲ್ಲಿ ಹಬ್ಬ ಮೂರು ದಿನ ನಡೆಯುತ್ತದೆ.",
+      "translation_en": "In the invented village, the invented festival lasts three days. This is a software fixture, not a cultural fact.",
+      "license": "Project-authored synthetic fixture; see RIGHTS.md",
+      "reviewer": "Automated fixture author; no native-speaker cultural validation",
+      "reviewed_on": "2026-09-30",
+      "supported_forms": [
+        "ಬೆಳದಿಂಗಳು ಗ್ರಾಮದಲ್ಲಿ ಹಬ್ಬ ಮೂರು ದಿನ ನಡೆಯುತ್ತದೆ."
+      ],
+      "contradicted_forms": [
+        "ಬೆಳದಿಂಗಳು ಗ್ರಾಮದಲ್ಲಿ ಹಬ್ಬ ನಾಲ್ಕು ದಿನ ನಡೆಯುತ್ತದೆ."
+      ],
+      "valid_variants": [
+        "ಬೆಳದಿಂಗಳು ಗ್ರಾಮದ ಹಬ್ಬ ಮೂರು ದಿನಗಳ ಕಾಲ ನಡೆಯುತ್ತದೆ."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+test_appended_negation_cannot_inherit_support (test_guard.GuardTests.test_appended_negation_cannot_inherit_support) ... ok
+test_codepoint_spans (test_guard.GuardTests.test_codepoint_spans) ... ok
+test_different_locale_abstains (test_guard.GuardTests.test_different_locale_abstains) ... ok
+test_empty_denominator (test_guard.GuardTests.test_empty_denominator) ... ok
+test_model_endpoint_must_be_loopback (test_guard.GuardTests.test_model_endpoint_must_be_loopback) ... ok
+test_multilingual_fixtures (test_guard.GuardTests.test_multilingual_fixtures) ... ok
+test_pack_conflict_abstains (test_guard.GuardTests.test_pack_conflict_abstains) ... ok
+test_pack_rejects_duplicate_ids (test_guard.GuardTests.test_pack_rejects_duplicate_ids) ... ok
+test_prompt_instruction_does_not_change_verdict (test_guard.GuardTests.test_prompt_instruction_does_not_change_verdict) ... ok
+test_rejects_bad_input (test_guard.GuardTests.test_rejects_bad_input) ... ok
+test_script_exclusions (test_guard.GuardTests.test_script_exclusions) ... ok
+test_script_offsets_preserve_emoji (test_guard.GuardTests.test_script_offsets_preserve_emoji) ... ok
+test_synthetic_provenance_is_retained (test_guard.GuardTests.test_synthetic_provenance_is_retained) ... ok
+test_unknown_is_not_false (test_guard.GuardTests.test_unknown_is_not_false) ... ok
+test_analysis_round_trip (test_guard.ServerTests.test_analysis_round_trip) ... ok
+test_assets_and_traversal (test_guard.ServerTests.test_assets_and_traversal) ... ok
+test_generation_disabled_by_default (test_guard.ServerTests.test_generation_disabled_by_default) ... ok
+test_rejects_cross_origin (test_guard.ServerTests.test_rejects_cross_origin) ... ok
+test_requires_token (test_guard.ServerTests.test_requires_token) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.522s
+
+OK
