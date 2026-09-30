@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bhashaguard-edge"
+version = "0.1.0"
+description = "Local evidence review and script checking for Telugu, Tamil and Kannada AI text"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["regex==2026.9.29"]
+
+[project.optional-dependencies]
+embeddings = ["sentence-transformers>=3,<6"]
+
+[project.scripts]
+bhashaguard = "bhashaguard.__main__:main"
+
+[tool.setuptools.package-data]
+bhashaguard = ["data/*.json", "web/*.html", "web/*.css", "web/*.js"]
+
+[tool.setuptools.packages.find]
+include = ["bhashaguard*"]
